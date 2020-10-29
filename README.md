@@ -1,14 +1,13 @@
-# react_router
 /**
- * 1 X Instalar react-router-dom
- * 2 X Incluir Navbar En App.js
- * 3 X Colocar Router
- * 4 X Convertir las Rutas del NavBar.js en NavLink
- * 5 X Basandose en las rutas del Navbar, crear un switch en APP.js que enrute cada ruta con su componente
- * 6 X En cada componente, implementar metodo Constructor con SUPER y un estado. Por ejemplo: 
+ * 1- Instalar react-router-dom
+ * 2- Incluir Navbar En App.js
+ * 3- Colocar Router
+ * 4- Convertir las Rutas del NavBar.js en NavLink
+ * 5- Basandose en las rutas del Navbar, crear un switch en APP.js que enrute cada ruta con su componente
+ * 6- En cada componente, implementar metodo Constructor con SUPER y un estado. Por ejemplo: 
  *    En el constructor de Posts, colocar un estado como: this.state = {posts:[]};
- * 7En cada componente, implementar componendDidMount.
- * 8En cada componente, consumir en el lugar correcto un fetch al servicio de jsonplaceholder correspondiente. 
+ * 7- En cada componente, implementar componendDidMount.
+ * 8- En cada componente, consumir en el lugar correcto un fetch al servicio de jsonplaceholder correspondiente. 
  *    Por ejemplo, en Posts: 
  *    fetch('https://jsonplaceholder.typicode.com/posts')
  * 9- Guardar la respuesta de los servicios en el estado de cada componente.
